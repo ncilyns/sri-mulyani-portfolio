@@ -45,6 +45,9 @@ function Defs() {
             <path key={k} d={`M50 50L50 ${k % 2 ? 8 : 2}`} stroke="currentColor" strokeWidth="3.4" strokeLinecap="round" transform={`rotate(${(k * 360) / 14} 50 50)`} />
           ))}
         </symbol>
+        <symbol id="dl" viewBox="0 0 24 24">
+          <path d="M12 4v10M7 10l5 5 5-5M5 20h14" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+        </symbol>
         <symbol id="star" viewBox="0 0 100 100">
           <path fill="currentColor" d="M50 0C54 34 66 46 100 50 66 54 54 66 50 100 46 66 34 54 0 50 34 46 46 34 50 0Z" />
         </symbol>
@@ -338,6 +341,7 @@ export default function App() {
             <div className="cta-row">
               <a className="btn" href="#work">VIEW MY WORK <Icon n="arr" /></a>
               <a className="btn ghost" href="#about">ABOUT ME <Icon n="arr" /></a>
+              <a className="btn o" href="/docs/CV_SRI_MULYANI.pdf" download="CV_Sri_Mulyani.pdf">DOWNLOAD CV <Icon n="dl" /></a>
             </div>
           </div>
           <div className="hr">
@@ -434,6 +438,9 @@ export default function App() {
                   <Icon n="star" style={{ color: 'var(--head)' }} />{c[1]}
                 </a>
               ))}
+              <a href="/docs/CV_SRI_MULYANI.pdf" download="CV_Sri_Mulyani.pdf">
+                <Icon n="dl" style={{ color: 'var(--head)' }} />Download CV (PDF)
+              </a>
             </div>
           </div>
           <div className="sun"><svg viewBox="0 0 100 100"><use href="#sun" /></svg></div>

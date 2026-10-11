@@ -192,3 +192,5 @@ dialog[open]{animation:pop .4s cubic-bezier(.2,.8,.2,1)}dialog[open]::backdrop{a
 .xt:hover{letter-spacing:.18em}.xt{transition:letter-spacing .25s}
 @media(max-width:700px){.tl{padding-left:46px}.tl:before{left:14px}.tm{left:-46px;width:30px;height:30px;top:22px}.xc2{padding:22px 20px 18px}.xx .xp{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+
+.cta-row{flex-wrap:wrap}
