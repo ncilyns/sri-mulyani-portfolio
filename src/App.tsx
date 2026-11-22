@@ -402,7 +402,7 @@ export default function App() {
           <div className="panel" data-rv>
             <h2 className="d">PROJECTS BY THE NUMBERS</h2>
             <div className="nums">
-              <div style={{ background: 'var(--t1)' }}><Count to={7} /><span>PROJECTS DOCUMENTED</span></div>
+              <div style={{ background: 'var(--t1)' }}><Count to={6} /><span>PROJECTS DOCUMENTED</span></div>
               <div style={{ background: 'var(--t2)' }}><Count to={111585} /><span>RATINGS VALIDATED IN THE WAREHOUSE</span></div>
               <div style={{ background: 'var(--t3)' }}><Count to={50000} /><span>MOVIE REVIEWS CLASSIFIED</span></div>
               <div style={{ background: 'var(--t4)' }}><Count to={3900} /><span>CUSTOMER RECORDS ANALYZED</span></div>
